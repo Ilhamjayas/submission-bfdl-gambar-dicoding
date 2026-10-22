@@ -1,0 +1,43 @@
+{
+  "run_id": "20261015T130914Z_2dcf3d3c",
+  "completed_epochs": 8,
+  "best_epoch": 8,
+  "checkpoint_sha256": "1d998f9f99a4de0eb0ae8a698d23da78a90b83af48fae0f77e3925b7c587595f",
+  "train_accuracy": 0.9849386215209961,
+  "train_loss": 0.04827786237001419,
+  "validation_accuracy": 0.9674051403999329,
+  "validation_loss": 0.13535277545452118,
+  "test_accuracy": 0.9628214836120605,
+  "test_loss": 0.13572297990322113,
+  "train_samples": 18325,
+  "validation_samples": 3927,
+  "test_samples": 3927,
+  "minimum_accuracy": 0.85,
+  "class_names": [
+    "butterfly",
+    "cat",
+    "chicken",
+    "cow",
+    "dog",
+    "elephant",
+    "horse",
+    "sheep",
+    "spider",
+    "squirrel"
+  ],
+  "input_scaling": "RGB float32 / 255.0",
+  "export_files_sha256": {
+    "tfjs_model/group1-shard2of3.bin": "9a46e4706c7548af854dd5f5205ac801d402964735d6839f274a3741224ab6ce",
+    "tfjs_model/group1-shard1of3.bin": "2d4d6bfd24e4b4f51ae731007c1764096dd35d516239a4c04b0133f2b9ce4861",
+    "tfjs_model/model.json": "c9dcee3677628772514a4f9fa84c6be43f9a2acfbd88a50936f7cd7c75e91e52",
+    "tfjs_model/group1-shard3of3.bin": "e265092b23e9e8855032e27dfc82159c53d35f18e27250780f5daacb08afcf26",
+    "tflite/model.tflite": "56b324bb27376696fab8ee8ecaefe1cb89bd76baca43f2e9d743410a086e1fcf",
+    "tflite/label.txt": "7094dc822fe3ce97e2e40d6671c966da75229df3290361f9de787539942079d9",
+    "saved_model/saved_model.pb": "50f8eb5a599ce5340f8641f93514546eaa1ec416dd0bd5fe2fbce362a4d4eb94",
+    "saved_model/fingerprint.pb": "1dadf94419438a84ba31de346363649ef286277e63f206e0ca49d6bc4bd8caf0",
+    "saved_model/variables/variables.data-00000-of-00001": "8fb11913153d44ac2e04d72a0eb62e4fbbae8a9416af197d29005ae3f7d962c5",
+    "saved_model/variables/variables.index": "77885a6e8fa6e68aeef42721b849ea85efc894b6c4e724b2f5ff1df3cdabfa0a"
+  },
+  "tensorflow_version": "2.21.0",
+  "tfjs_converter_version": "4.22.0"
+}

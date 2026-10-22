@@ -1,0 +1,29 @@
+{
+  "run_id": "20261015T130914Z_2dcf3d3c",
+  "completed_epochs": 8,
+  "best_epoch": 8,
+  "checkpoint_sha256": "1d998f9f99a4de0eb0ae8a698d23da78a90b83af48fae0f77e3925b7c587595f",
+  "train_accuracy": 0.9849386215209961,
+  "train_loss": 0.04827786237001419,
+  "validation_accuracy": 0.9674051403999329,
+  "validation_loss": 0.13535277545452118,
+  "test_accuracy": 0.9628214836120605,
+  "test_loss": 0.13572297990322113,
+  "train_samples": 18325,
+  "validation_samples": 3927,
+  "test_samples": 3927,
+  "minimum_accuracy": 0.85,
+  "class_names": [
+    "butterfly",
+    "cat",
+    "chicken",
+    "cow",
+    "dog",
+    "elephant",
+    "horse",
+    "sheep",
+    "spider",
+    "squirrel"
+  ],
+  "input_scaling": "RGB float32 / 255.0"
+}
